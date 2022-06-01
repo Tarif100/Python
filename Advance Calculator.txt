@@ -1,0 +1,24 @@
+print("Enter the operation(+,-,*,/): ")
+A=input()
+print("Enter the two numbers: ")
+B=int(input())
+C=int(input())
+print("The answer is: ")
+
+if A=="*":
+    if B==45 or C==3:
+        print("555")
+    else:
+        print(B*C)
+elif A=="+":
+    if B==56 or C==7:
+        print("77")
+    else:
+        print(B+C)
+elif A=="/":
+    if B==56 or C==6:
+        print("4")
+    else:
+        print(B/C)
+elif A=="-":
+    print(B-C)
